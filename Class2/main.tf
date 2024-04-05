@@ -3,7 +3,7 @@ provider "aws" {
 }
 # resource "aws_key_pair" "deployer" {
 #   key_name   = "deployer-key"
-#   public_key = file("~/.ssh/id_rsa.pub")  
+#   public_key = file("my_public_key_path")  
 # }
 
 # resource "aws_s3_bucket" "example" {
